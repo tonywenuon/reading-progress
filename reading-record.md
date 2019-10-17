@@ -19,6 +19,7 @@ Match-LSTM: use the attention scores (weights) between the question words and th
 1. The model is far from the oracle performance (upper bound), this can be improved.
 2. It doesn't contain the inter-relationship between paragraphs.
 3. It only selects the most relevant paragraph so it can't filter noise.
+4. Start and End position are treated independently. If there are multi-answers in a paragraph, the end position may be located at the second answer span, which is incorrent.
 
 ## 3. Denoising Distantly Supervised Open-Domain Question Answering
 
@@ -28,8 +29,9 @@ The author propose a **paragraph selector** and a **paragraph reader**, which ar
 ### Limitations:
 1. The predicted answers can further be re-ranked to get better results.
 2. There is no reasoning process between the paragraphs in the model.
+3. Start and End position are treated independently. If there are multi-answers in a paragraph, the end position may be located at the second answer span, which is incorrent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU3MzY1ODMsLTkzMTkyMjY4NywxND
-I1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0xNDU4NDI5
-OTM5XX0=
+eyJoaXN0b3J5IjpbLTE2NzEwNjE0LC05MzE5MjI2ODcsMTQyNT
+c0Nzc2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1ODQyOTkz
+OV19
 -->
