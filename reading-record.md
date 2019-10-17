@@ -22,10 +22,12 @@ Match-LSTM: use the attention scores (weights) between the question words and th
 ## 3. Denoising Distantly Supervised Open-Domain Question Answering
 
 ### Good aspects:
-The author propose a **paragraph selector** and a **paragraph reader**, which are similar to the previous two papers. The different part is the output of the paragraph selector. It obtains all of the potentially useful 
+The author propose a **paragraph selector** and a **paragraph reader**, which are similar to the previous two papers. The different part is the output of the paragraph selector. It obtains all of the potentially useful paragraph, and give each of them a probability that indicates how much the current paragraph relates to the question. This can be considered as a filter. 
 
 ### Limitations:
+1. The predicted answers can further be re-ranked to get better results.
+2. There is no reasonin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzQ5NDA2OCwxNDI1NzQ3NzY0LDc0NT
+eyJoaXN0b3J5IjpbMjA0MjcxNjAwNiwxNDI1NzQ3NzY0LDc0NT
 IwMjc3OCwxNTI2MTY5NjY5LC0xNDU4NDI5OTM5XX0=
 -->
