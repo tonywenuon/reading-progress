@@ -7,12 +7,13 @@ This work propose a two-stage pipeline to achive the mechine reading at scale on
 1. The document reader treats paragraphs independently (no reasoning).
 2. Two DR systems pipeline, which is not an end-to-end system.
 
-## $R^3$: Reinforced Ranker-Reader for Open-Domain Question Answering
+## 2. $R^3$: Reinforced Ranker-Reader for Open-Domain Question Answering
 
 ### Good aspects:
 It has a similar 
 ### Limitations:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg0Mjk5MzldfQ==
+eyJoaXN0b3J5IjpbLTEyMjAyNDk1MTksLTE0NTg0Mjk5MzldfQ
+==
 -->
