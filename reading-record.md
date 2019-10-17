@@ -30,9 +30,17 @@ The author propose a **paragraph selector** and a **paragraph reader**, which ar
 1. The predicted answers can further be re-ranked to get better results.
 2. There is no reasoning process between the paragraphs in the model.
 3. Start and End position are treated independently. If there are multi-answers in a paragraph, the end position may be located at the second answer span, which is incorrent.
-4. 
+
+## 4. Has-qa: Hierarchical answer spans model for open-domain question answering. 
+
+### Good aspects:
+This work summarises three different aspects between traditional Reading Comprehension (RC) and open-domain QA. 1) RC only contains useful paragraph, omitting 
+### Limitations:
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0MTc5Nzk4LC0xNjcxMDYxNCwtOTMxOT
+eyJoaXN0b3J5IjpbNjc3NTM4ODQ3LC0xNjcxMDYxNCwtOTMxOT
 IyNjg3LDE0MjU3NDc3NjQsNzQ1MjAyNzc4LDE1MjYxNjk2Njks
 LTE0NTg0Mjk5MzldfQ==
 -->
