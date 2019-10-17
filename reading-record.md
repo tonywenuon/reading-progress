@@ -13,9 +13,10 @@ This work propose a two-stage pipeline to achive the mechine reading at scale on
 It has a similar idea with the DrQA. A Ranker takes responsibility of ranking all of the paragraphs (use reinforcement learning) and a Reader to extract the answer from the paragraphs. The Ranker uses a Match-LSTM to get the relation between the question and the paragraph. The Reader uses all of the potential useful vector to get probabilities of the start position and the end position. Jointly train the two models.
 
 ### Notion
-Match-LSTM: use the attention scores (weights) between the question words and the paragraph words to get the representation of each word in the paragraph. On the other hand, the paragraph word has its own representation. Concate th
+Match-LSTM: use the attention scores (weights) between the question words and the paragraph words to get the representation of each word in the paragraph. On the other hand, the paragraph word has its own representation. Concate them and take this as the paragraph word representation. (Potentially, the word representation contains the relation between the question and the current paragraph)
 ### Limitations:
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTk2MTI0NSwtMTQ1ODQyOTkzOV19
+eyJoaXN0b3J5IjpbMTUyNjE2OTY2OSwtMTQ1ODQyOTkzOV19
 -->
