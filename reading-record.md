@@ -2,7 +2,7 @@
 ## 1. Reading Wikipedia to Answer Open-Domain Questions (DrQA)
 
 ### Good aspect:
-This work propose a two-stage pipeline to achive the mechine reading at scale on a single knowledge source, Wikipedia. A document retriever takes responsibility to retrieve from the large-scale Wikipedia data set and a document reader module is in charge of getting the best text span from the retrieved paragraphs. To test the effectiveness, the author conducts the DR models on four data sets. Among them, the SQuAD is used for training and the other three (Curated TREC, WebQuestions and WikiMovies) for testing. This is a kind of distant supervision (train a model on a data set while extracting information from another data set). They claim that by the results, we can observe thte task transfer is occurring. Note: the DR-
+This work propose a two-stage pipeline to achive the mechine reading at scale on a single knowledge source, Wikipedia. A document retriever takes responsibility to retrieve from the large-scale Wikipedia data set and a document reader module is in charge of getting the best text span from the retrieved paragraphs. To test the effectiveness, the author conducts the DR models on four data sets. Among them, the SQuAD is used for training and the other three (Curated TREC, WebQuestions and WikiMovies) for testing. This is a kind of distant supervision (train a model on a data set while extracting information from another data set). They claim that by the results, we can observe thte task transfer is occurring. Note: the document retriever select top 5 articles for the document reader.
 ### Limitations:
 1. The document reader treats paragraphs independently (no reasoning).
 2. Two DR systems pipeline, which is not an end-to-end system.
@@ -22,9 +22,10 @@ Match-LSTM: use the attention scores (weights) between the question words and th
 ## 3. Denoising Distantly Supervised Open-Domain Question Answering
 
 ### Good aspects:
+The author propose a **paragraph selector** and a **paragraph reader**, which are similar to the previous two papers. The different part is the output of the paragraph selector. It obtains all of the potentially useful 
 
 ### Limitations:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTcyNzg0NywxNDI1NzQ3NzY0LDc0NT
+eyJoaXN0b3J5IjpbMTgxMzQ5NDA2OCwxNDI1NzQ3NzY0LDc0NT
 IwMjc3OCwxNTI2MTY5NjY5LC0xNDU4NDI5OTM5XX0=
 -->
