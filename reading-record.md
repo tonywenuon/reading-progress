@@ -17,8 +17,9 @@ Match-LSTM: use the attention scores (weights) between the question words and th
 ### Limitations:
 1. The model is far from the oracle performance (upper bound), this can be improved.
 2. It doesn't contain the inter-relationship between paragraphs.
+3. It only selects the most relevant paragraph so it can't filter noise.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1MjAyNzc4LDE1MjYxNjk2NjksLTE0NT
-g0Mjk5MzldfQ==
+eyJoaXN0b3J5IjpbMTQyNTc0Nzc2NCw3NDUyMDI3NzgsMTUyNj
+E2OTY2OSwtMTQ1ODQyOTkzOV19
 -->
