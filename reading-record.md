@@ -26,8 +26,8 @@ The author propose a **paragraph selector** and a **paragraph reader**, which ar
 
 ### Limitations:
 1. The predicted answers can further be re-ranked to get better results.
-2. There is no reasonin
+2. There is no reasoning process between the paragraphs in the model.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjcxNjAwNiwxNDI1NzQ3NzY0LDc0NT
+eyJoaXN0b3J5IjpbLTkzMTkyMjY4NywxNDI1NzQ3NzY0LDc0NT
 IwMjc3OCwxNTI2MTY5NjY5LC0xNDU4NDI5OTM5XX0=
 -->
