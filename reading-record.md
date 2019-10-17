@@ -30,8 +30,9 @@ The author propose a **paragraph selector** and a **paragraph reader**, which ar
 1. The predicted answers can further be re-ranked to get better results.
 2. There is no reasoning process between the paragraphs in the model.
 3. Start and End position are treated independently. If there are multi-answers in a paragraph, the end position may be located at the second answer span, which is incorrent.
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEwNjE0LC05MzE5MjI2ODcsMTQyNT
-c0Nzc2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1ODQyOTkz
-OV19
+eyJoaXN0b3J5IjpbNTM0MTc5Nzk4LC0xNjcxMDYxNCwtOTMxOT
+IyNjg3LDE0MjU3NDc3NjQsNzQ1MjAyNzc4LDE1MjYxNjk2Njks
+LTE0NTg0Mjk5MzldfQ==
 -->
