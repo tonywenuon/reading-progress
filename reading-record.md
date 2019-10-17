@@ -10,13 +10,12 @@ This work propose a two-stage pipeline to achive the mechine reading at scale on
 ## 2. $R^3$: Reinforced Ranker-Reader for Open-Domain Question Answering
 
 ### Good aspects:
-It has a similar idea with the DrQA. A Ranker takes responsibility of ranking all of the paragraphs (use reinforcement learning) and a Reader to extract the answer from the paragraphs. The Ranker uses a Match-LSTM to get the relation between the question and the paragraph. The Reader use
+It has a similar idea with the DrQA. A Ranker takes responsibility of ranking all of the paragraphs (use reinforcement learning) and a Reader to extract the answer from the paragraphs. The Ranker uses a Match-LSTM to get the relation between the question and the paragraph. The Reader uses all of the potential useful vector to get probabilities of the start position and the end position. Jointly train the two models.
 
 ### Notion
-Match-LSTM: use
+Match-LSTM: use the attention scores (weights) between the question words and the paragraph words to get the representation of each word in the paragraph. On the other hand, the paragraph word has its own representation. Concate th
 ### Limitations:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjkxNzA0MjksLTE0NTg0Mjk5MzldfQ
-==
+eyJoaXN0b3J5IjpbMTgzNTk2MTI0NSwtMTQ1ODQyOTkzOV19
 -->
