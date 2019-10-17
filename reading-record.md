@@ -34,13 +34,13 @@ The author propose a **paragraph selector** and a **paragraph reader**, which ar
 ## 4. Has-qa: Hierarchical answer spans model for open-domain question answering. 
 
 ### Good aspects:
-This work summarises three different aspects between traditional Reading Comprehension (RC) and open-domain QA. 1) RC only contains useful paragraph, omitting 
+This work summarises three different aspects between traditional Reading Comprehension (RC) and open-domain QA. 1) RC only contains useful paragraph, omitting paragraphs wittout answer string; 2) RC only considers the first answer span; 3) RC assumes the start position and the end position are independent. They propose a HAS-QA by using four modules. The
 ### Limitations:
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3NTM4ODQ3LC0xNjcxMDYxNCwtOTMxOT
-IyNjg3LDE0MjU3NDc3NjQsNzQ1MjAyNzc4LDE1MjYxNjk2Njks
-LTE0NTg0Mjk5MzldfQ==
+eyJoaXN0b3J5IjpbMzg4MzQyMDUsLTE2NzEwNjE0LC05MzE5Mj
+I2ODcsMTQyNTc0Nzc2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwt
+MTQ1ODQyOTkzOV19
 -->
