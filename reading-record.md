@@ -6,6 +6,7 @@ This work propose a two-stage pipeline to achive the mechine reading at scale on
 ### Limitations:
 1. The document reader treats paragraphs independently (no reasoning).
 2. Two DR systems pipeline, which is not an end-to-end system.
+3. Start and End position are treated independently. If there are multi-answers in a paragraph, the end position may be located at the second answer span, which is incorrent.
 
 ## 2. $R^3$: Reinforced Ranker-Reader for Open-Domain Question Answering
 
@@ -28,6 +29,7 @@ The author propose a **paragraph selector** and a **paragraph reader**, which ar
 1. The predicted answers can further be re-ranked to get better results.
 2. There is no reasoning process between the paragraphs in the model.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTkyMjY4NywxNDI1NzQ3NzY0LDc0NT
-IwMjc3OCwxNTI2MTY5NjY5LC0xNDU4NDI5OTM5XX0=
+eyJoaXN0b3J5IjpbLTE4NjU3MzY1ODMsLTkzMTkyMjY4NywxND
+I1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0xNDU4NDI5
+OTM5XX0=
 -->
