@@ -15,9 +15,10 @@ It has a similar idea with the DrQA. A Ranker takes responsibility of ranking al
 ### Notion
 Match-LSTM: use the attention scores (weights) between the question words and the paragraph words to get the representation of each word in the paragraph. On the other hand, the paragraph word has its own representation. Concate them and take this as the paragraph word representation. (Potentially, the word representation contains the relation between the question and the current paragraph)
 ### Limitations:
-1. The model is far from the oracle performance
+1. The model is far from the oracle performance (upper bound), this can be improved.
+2. It doesn't contain the inter-relationship between paragraphs.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3NDcyMDQ2LDE1MjYxNjk2NjksLTE0NT
+eyJoaXN0b3J5IjpbNzQ1MjAyNzc4LDE1MjYxNjk2NjksLTE0NT
 g0Mjk5MzldfQ==
 -->
