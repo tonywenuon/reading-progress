@@ -3,7 +3,7 @@
 1. They all have a retriever and a reader.
 2. They found that a retriever ranker is helpful for the results.
 3. Predict end position on top of start position is helpful (not treat them independently)
-4. A passage probability
+4. A passage probability multiply with the predicted start/end position probability, which is helpful
 
 
 ## 1. Reading Wikipedia to Answer Open-Domain Questions (DrQA)
@@ -54,8 +54,8 @@ Leverage the BERT to extract answer from the background knowledge. It provides t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjY3MzQ3LDQ2MTU0OTc0OCwxNzExNj
-U2OTAsMTc5NjQ2ODcxMCwtMTY3MTA2MTQsLTkzMTkyMjY4Nywx
-NDI1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0xNDU4ND
-I5OTM5XX0=
+eyJoaXN0b3J5IjpbMTIxMTMwODM3Nyw0NjE1NDk3NDgsMTcxMT
+Y1NjkwLDE3OTY0Njg3MTAsLTE2NzEwNjE0LC05MzE5MjI2ODcs
+MTQyNTc0Nzc2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1OD
+QyOTkzOV19
 -->
