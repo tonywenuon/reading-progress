@@ -38,9 +38,13 @@ This work summarises three different aspects between traditional Reading Compreh
 ### Limitations:
 1. There is no reasoning process between the paragraphs in the model.
 
+## 5. Multi-passage BERT: A Globally Normalized BERT Model for Open-domain Question Answering
 
+### Good aspects:
+Laverage the BERT to extract answer from the background knowledge. It provides that (1) global normalization makes QA model 
+### Good Limitations:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTY1NjkwLDE3OTY0Njg3MTAsLTE2Nz
-EwNjE0LC05MzE5MjI2ODcsMTQyNTc0Nzc2NCw3NDUyMDI3Nzgs
-MTUyNjE2OTY2OSwtMTQ1ODQyOTkzOV19
+eyJoaXN0b3J5IjpbLTQxOTcwMDgwMCwxNzExNjU2OTAsMTc5Nj
+Q2ODcxMCwtMTY3MTA2MTQsLTkzMTkyMjY4NywxNDI1NzQ3NzY0
+LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0xNDU4NDI5OTM5XX0=
 -->
