@@ -49,13 +49,18 @@ This work summarises three different aspects between traditional Reading Compreh
 
 ### Good aspects:
 Leverage the BERT to extract answer from the background knowledge. It provides that (1) global normalization makes QA model more stable by injecting a large number of parasssages. (2) treat the passage granularity with the passage window length (100) and sliding window with 50, this is helpful for getting all of the information. (3) Leveraging a BERT-based passage ranker improves the performance.
-### Good Limitations:
+### Limitations:
 1. There is no reasoning process (inter-correlation among passages) between the paragraphs in the model.
+
+## 6. Learning to Transform, Combine, and Reason in Open-Domain Question Answering
+
+### Good aspects:
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTMwODM3Nyw0NjE1NDk3NDgsMTcxMT
-Y1NjkwLDE3OTY0Njg3MTAsLTE2NzEwNjE0LC05MzE5MjI2ODcs
-MTQyNTc0Nzc2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1OD
-QyOTkzOV19
+eyJoaXN0b3J5IjpbLTE4MDg2NjU0OTQsMTIxMTMwODM3Nyw0Nj
+E1NDk3NDgsMTcxMTY1NjkwLDE3OTY0Njg3MTAsLTE2NzEwNjE0
+LC05MzE5MjI2ODcsMTQyNTc0Nzc2NCw3NDUyMDI3NzgsMTUyNj
+E2OTY2OSwtMTQ1ODQyOTkzOV19
 -->
