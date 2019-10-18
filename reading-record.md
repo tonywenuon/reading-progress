@@ -55,11 +55,12 @@ Leverage the BERT to extract answer from the background knowledge. It provides t
 ## 6. Learning to Transform, Combine, and Reason in Open-Domain Question Answering
 
 ### Good aspects:
-This work adopts Transformer to get the representation. A multihop reasoning is used for reasoning between all of the document. With this a
+This work adopts Transformer to get the representation. A novel multihop reasoning is used for reasoning between all of the document. With this approach, the model can make use of the low ranking documents.
+
 ### Limitations:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDI3OTQ2MiwyMjYzNTM1NDgsMTIxMT
+eyJoaXN0b3J5IjpbMjA5ODgwNzMwNCwyMjYzNTM1NDgsMTIxMT
 MwODM3Nyw0NjE1NDk3NDgsMTcxMTY1NjkwLDE3OTY0Njg3MTAs
 LTE2NzEwNjE0LC05MzE5MjI2ODcsMTQyNTc0Nzc2NCw3NDUyMD
 I3NzgsMTUyNjE2OTY2OSwtMTQ1ODQyOTkzOV19
