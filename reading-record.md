@@ -41,10 +41,13 @@ This work summarises three different aspects between traditional Reading Compreh
 ## 5. Multi-passage BERT: A Globally Normalized BERT Model for Open-domain Question Answering
 
 ### Good aspects:
-Laverage the BERT to extract answer from the background knowledge. It provides that (1) global normalization makes QA model more stable by injecting a large number of parasssages. (2) treat the passage granularity with the passage window length (100) and sliding window with 50, this is helpful for getting all of the information. (3)
+Leverage the BERT to extract answer from the background knowledge. It provides that (1) global normalization makes QA model more stable by injecting a large number of parasssages. (2) treat the passage granularity with the passage window length (100) and sliding window with 50, this is helpful for getting all of the information. (3) Leveraging a BERT-based passage ranker improves the performance.
 ### Good Limitations:
+1. There is no reasoning process (inter-correlation among passages) between the paragraphs in the model.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNTQ5NzQ4LDE3MTE2NTY5MCwxNzk2ND
-Y4NzEwLC0xNjcxMDYxNCwtOTMxOTIyNjg3LDE0MjU3NDc3NjQs
-NzQ1MjAyNzc4LDE1MjYxNjk2NjksLTE0NTg0Mjk5MzldfQ==
+eyJoaXN0b3J5IjpbLTIxNzA4Njg1Miw0NjE1NDk3NDgsMTcxMT
+Y1NjkwLDE3OTY0Njg3MTAsLTE2NzEwNjE0LC05MzE5MjI2ODcs
+MTQyNTc0Nzc2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1OD
+QyOTkzOV19
 -->
