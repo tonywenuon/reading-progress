@@ -56,11 +56,11 @@ Leverage the BERT to extract answer from the background knowledge. It provides t
 
 ### Good aspects:
 
-
+### Limitations:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg2NjU0OTQsMTIxMTMwODM3Nyw0Nj
-E1NDk3NDgsMTcxMTY1NjkwLDE3OTY0Njg3MTAsLTE2NzEwNjE0
-LC05MzE5MjI2ODcsMTQyNTc0Nzc2NCw3NDUyMDI3NzgsMTUyNj
-E2OTY2OSwtMTQ1ODQyOTkzOV19
+eyJoaXN0b3J5IjpbMjI2MzUzNTQ4LDEyMTEzMDgzNzcsNDYxNT
+Q5NzQ4LDE3MTE2NTY5MCwxNzk2NDY4NzEwLC0xNjcxMDYxNCwt
+OTMxOTIyNjg3LDE0MjU3NDc3NjQsNzQ1MjAyNzc4LDE1MjYxNj
+k2NjksLTE0NTg0Mjk5MzldfQ==
 -->
