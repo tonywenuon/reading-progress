@@ -78,15 +78,15 @@ The author proposes a match-LSTM to match the question with another sequence to 
 
 ## 9. ## A Neural Network Approach to Context-Sensitive Generation of Conversational Responses
 ### Good aspects:
-This paper proposes three models to incorporate the context information. It conditions on the previous utterances via biasing the hidden layer state on the context representation. That means that it add the context representation into the decoder generating process.
+This paper proposes three models to incorporate the context information. It conditions on the previous utterances via biasing the hidden layer state on the context representation. That means that it add the context representation into the decoder generating process, forcing the model to don't forget the context.
 ### Limitations:
 1. There is no word order consideration in the model.
 2. RNN-based model is no longer the state-of-the-art model.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTc5OTYyNCwtODk2MDk5NTM2LDE3ND
-YzMjI3MzEsMjAwMDc1OTgyNCw5NjUwNzIxMSwtMzA4NDg4MTc0
-LDIyNjM1MzU0OCwxMjExMzA4Mzc3LDQ2MTU0OTc0OCwxNzExNj
-U2OTAsMTc5NjQ2ODcxMCwtMTY3MTA2MTQsLTkzMTkyMjY4Nywx
-NDI1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0xNDU4ND
-I5OTM5XX0=
+eyJoaXN0b3J5IjpbNTg1NDQ4MTg2LC04OTYwOTk1MzYsMTc0Nj
+MyMjczMSwyMDAwNzU5ODI0LDk2NTA3MjExLC0zMDg0ODgxNzQs
+MjI2MzUzNTQ4LDEyMTEzMDgzNzcsNDYxNTQ5NzQ4LDE3MTE2NT
+Y5MCwxNzk2NDY4NzEwLC0xNjcxMDYxNCwtOTMxOTIyNjg3LDE0
+MjU3NDc3NjQsNzQ1MjAyNzc4LDE1MjYxNjk2NjksLTE0NTg0Mj
+k5MzldfQ==
 -->
