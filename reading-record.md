@@ -69,10 +69,15 @@ This work proposes re-rank method to improve the performance. After an Open-QA m
 ### Limitations:
 1. There is no reasoning process (inter-correlation among passages) between the paragraphs in the model.
 2. It relys on the QA model to get the answer candidates.
+
+## 8. Learning Natural Language Inference with LSTM
+### Good aspects:
+The author proposes a match-LSTM to match the question with another sequence to infer from each other. It bel
+### Limitations:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDc1OTgyNCw5NjUwNzIxMSwtMzA4ND
-g4MTc0LDIyNjM1MzU0OCwxMjExMzA4Mzc3LDQ2MTU0OTc0OCwx
-NzExNjU2OTAsMTc5NjQ2ODcxMCwtMTY3MTA2MTQsLTkzMTkyMj
-Y4NywxNDI1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0x
-NDU4NDI5OTM5XX0=
+eyJoaXN0b3J5IjpbLTEzMjgyNzcyMTAsMjAwMDc1OTgyNCw5Nj
+UwNzIxMSwtMzA4NDg4MTc0LDIyNjM1MzU0OCwxMjExMzA4Mzc3
+LDQ2MTU0OTc0OCwxNzExNjU2OTAsMTc5NjQ2ODcxMCwtMTY3MT
+A2MTQsLTkzMTkyMjY4NywxNDI1NzQ3NzY0LDc0NTIwMjc3OCwx
+NTI2MTY5NjY5LC0xNDU4NDI5OTM5XX0=
 -->
