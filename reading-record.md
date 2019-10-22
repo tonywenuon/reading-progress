@@ -64,14 +64,14 @@ This work adopts Transformer to get the representation. A novel multihop reasoni
 ## 7. EVIDENCE AGGREGATION FOR ANSWER RE-RANKING IN OPEN-DOMAIN QUESTION ANSWERING
 
 ### Good aspects:
-
+This work proposes re-rank method to improve the performance. After an Open-QA model gets all of the potential 
 
 ### Limitations:
 1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MDcyMTEsLTMwODQ4ODE3NCwyMjYzNT
-M1NDgsMTIxMTMwODM3Nyw0NjE1NDk3NDgsMTcxMTY1NjkwLDE3
-OTY0Njg3MTAsLTE2NzEwNjE0LC05MzE5MjI2ODcsMTQyNTc0Nz
-c2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1ODQyOTkzOV19
-
+eyJoaXN0b3J5IjpbLTI3OTY4MTQzMSw5NjUwNzIxMSwtMzA4ND
+g4MTc0LDIyNjM1MzU0OCwxMjExMzA4Mzc3LDQ2MTU0OTc0OCwx
+NzExNjU2OTAsMTc5NjQ2ODcxMCwtMTY3MTA2MTQsLTkzMTkyMj
+Y4NywxNDI1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0x
+NDU4NDI5OTM5XX0=
 -->
