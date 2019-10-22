@@ -72,12 +72,13 @@ This work proposes re-rank method to improve the performance. After an Open-QA m
 
 ## 8. Learning Natural Language Inference with LSTM
 ### Good aspects:
-The author proposes a match-LSTM to match the question with another sequence to infer from each other. It bel
+The author proposes a match-LSTM to match the question with another sequence to infer from each other. It belongs to the Natural language inference area. By the match-LSTM, the two sequences can be matched with an RNN and finally get a single vector to be as the match degree. 
 ### Limitations:
+1. It doesn't have paragraph databases in the learning process. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgyNzcyMTAsMjAwMDc1OTgyNCw5Nj
-UwNzIxMSwtMzA4NDg4MTc0LDIyNjM1MzU0OCwxMjExMzA4Mzc3
-LDQ2MTU0OTc0OCwxNzExNjU2OTAsMTc5NjQ2ODcxMCwtMTY3MT
-A2MTQsLTkzMTkyMjY4NywxNDI1NzQ3NzY0LDc0NTIwMjc3OCwx
-NTI2MTY5NjY5LC0xNDU4NDI5OTM5XX0=
+eyJoaXN0b3J5IjpbMTYyMTgxNDQzOCwyMDAwNzU5ODI0LDk2NT
+A3MjExLC0zMDg0ODgxNzQsMjI2MzUzNTQ4LDEyMTEzMDgzNzcs
+NDYxNTQ5NzQ4LDE3MTE2NTY5MCwxNzk2NDY4NzEwLC0xNjcxMD
+YxNCwtOTMxOTIyNjg3LDE0MjU3NDc3NjQsNzQ1MjAyNzc4LDE1
+MjYxNjk2NjksLTE0NTg0Mjk5MzldfQ==
 -->
