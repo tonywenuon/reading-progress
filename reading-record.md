@@ -60,9 +60,18 @@ This work adopts Transformer to get the representation. A novel multihop reasoni
 ### Limitations:
 1. Keep the retrieval process a black box. They don't explore the retrieval process.
 2. The decoder gets access to document-level, not word-level, potentially missing some useful information.
+
+## 7. EVIDENCE AGGREGATION FOR ANSWER RE-RANKING IN OPEN-DOMAIN QUESTION ANSWERING
+
+### Good aspects:
+
+
+### Limitations:
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODQ4ODE3NCwyMjYzNTM1NDgsMTIxMT
-MwODM3Nyw0NjE1NDk3NDgsMTcxMTY1NjkwLDE3OTY0Njg3MTAs
-LTE2NzEwNjE0LC05MzE5MjI2ODcsMTQyNTc0Nzc2NCw3NDUyMD
-I3NzgsMTUyNjE2OTY2OSwtMTQ1ODQyOTkzOV19
+eyJoaXN0b3J5IjpbOTY1MDcyMTEsLTMwODQ4ODE3NCwyMjYzNT
+M1NDgsMTIxMTMwODM3Nyw0NjE1NDk3NDgsMTcxMTY1NjkwLDE3
+OTY0Njg3MTAsLTE2NzEwNjE0LC05MzE5MjI2ODcsMTQyNTc0Nz
+c2NCw3NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1ODQyOTkzOV19
+
 -->
