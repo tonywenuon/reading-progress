@@ -75,10 +75,18 @@ This work proposes re-rank method to improve the performance. After an Open-QA m
 The author proposes a match-LSTM to match the question with another sequence to infer from each other. It belongs to the Natural language inference area. By the match-LSTM, the two sequences can be matched with an RNN and finally get a single vector to be as the match degree. Basically, it uses the attention context and the hidden states by concatenating them together to enrich the original hidden state. And then inputting it to another RNN to get the match vector.
 ### Limitations:
 1. It doesn't have paragraph databases in the learning process. 
+
+## 9. ## A Neural Network Approach to Context-Sensitive Generation of Conversational Responses
+### Good aspects:
+
+### Limitations:
+1. There is no word order consideration in the model.
+2. RNN-based model is no longer the sta
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjA5OTUzNiwxNzQ2MzIyNzMxLDIwMD
-A3NTk4MjQsOTY1MDcyMTEsLTMwODQ4ODE3NCwyMjYzNTM1NDgs
-MTIxMTMwODM3Nyw0NjE1NDk3NDgsMTcxMTY1NjkwLDE3OTY0Nj
-g3MTAsLTE2NzEwNjE0LC05MzE5MjI2ODcsMTQyNTc0Nzc2NCw3
-NDUyMDI3NzgsMTUyNjE2OTY2OSwtMTQ1ODQyOTkzOV19
+eyJoaXN0b3J5IjpbMTQyMjQyNjg2MSwtODk2MDk5NTM2LDE3ND
+YzMjI3MzEsMjAwMDc1OTgyNCw5NjUwNzIxMSwtMzA4NDg4MTc0
+LDIyNjM1MzU0OCwxMjExMzA4Mzc3LDQ2MTU0OTc0OCwxNzExNj
+U2OTAsMTc5NjQ2ODcxMCwtMTY3MTA2MTQsLTkzMTkyMjY4Nywx
+NDI1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0xNDU4ND
+I5OTM5XX0=
 -->
