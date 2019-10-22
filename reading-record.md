@@ -68,9 +68,9 @@ This work proposes re-rank method to improve the performance. After an Open-QA m
 
 ### Limitations:
 1. There is no reasoning process (inter-correlation among passages) between the paragraphs in the model.
-2. It relys on the mechaine 
+2. It relys on the QA model to get the answer candidates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Njg3NzgwNSw5NjUwNzIxMSwtMzA4ND
+eyJoaXN0b3J5IjpbMjAwMDc1OTgyNCw5NjUwNzIxMSwtMzA4ND
 g4MTc0LDIyNjM1MzU0OCwxMjExMzA4Mzc3LDQ2MTU0OTc0OCwx
 NzExNjU2OTAsMTc5NjQ2ODcxMCwtMTY3MTA2MTQsLTkzMTkyMj
 Y4NywxNDI1NzQ3NzY0LDc0NTIwMjc3OCwxNTI2MTY5NjY5LC0x
